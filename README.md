@@ -1,4 +1,4 @@
-## Intro
+Intro
 ===========
 In 2017 I hadn't used JS on a daily basis for awhile, so this is my attempt to
 refamiliarize myself as well as produce something useful, in the form of
@@ -9,7 +9,7 @@ easily-readable version separate from a 1-line  browser-ready version
 minus comments.
 
 
-##Scripts
+Scripts
 ==========
 - overdrive_search.js = Pulls Kindle book title from an Amazon book detail page
 and searches a local library Overdrive system. Goal: Borrow book from library
