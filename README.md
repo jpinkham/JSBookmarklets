@@ -11,13 +11,15 @@ minus comments.
 
 Scripts
 ==========
-- overdrive_search.js = Pulls Kindle book title from an Amazon book detail page
-and searches a local library Overdrive system. Goal: Borrow book from library
-instead of buying it. 
-	Overdrive is a system used by many libraries (over 30k in 40+ countries!) to lend out ebooks and audiobooks.  Check if your library uses Overdrive: 
-	https://www.overdrive.com/libraries
+- overdrive\_ebook\_search.js = Pulls Kindle book title from an Amazon book detail page
+and searches a local library Overdrive system. Overdrive is a system used by many libraries (over 30k in 40+ countries!) to lend out ebooks and audiobooks.  [Check if your library uses Overdrive](https://www.overdrive.com/libraries)
 
-NOTE: This bookmark is hardcoded to Brooklyn but you can change to whatever 
-URL is used by your local library.  
+Goal: Borrow book from library
+instead of buying it, if you only intend to read it once.
+
+
+NOTE: This bookmark is hardcoded to Brooklyn (which [anyone in the US can get
+access to](https://bpl.bklynlibrary.org/patron_card/registration.aspx?ref=outofstate)! $50 annual fee) but you can change to whatever URL is used by your
+local library.  I intend to update the script with a variable where users can enter their relevant URL.
 
 As of 10/26/17, it handles few error cases.
