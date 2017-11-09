@@ -23,3 +23,8 @@ access to](https://bpl.bklynlibrary.org/patron_card/registration.aspx?ref=outofs
 local library.  I intend to update the script with a variable where users can enter their relevant URL.
 
 As of 10/26/17, it handles few error cases.
+
+- library\_book\_search.js = Pulls Amazon book/product title from detail page and searches the local library specified in the file.
+
+NOTE: This bookmark is hardcoded to Loudoun County, Virginia which does -not- use the SIRSI system (common in older library systems). SIRSI is very tricky because they use a lot of cookies and no search data is in the URL/GET parameters.
+
